@@ -17,7 +17,7 @@ try {
  */
 
 try {
-  const res = await fetch("https://api.coingecko.com/api/v3/coins/dogecoin");
+  const res = await fetch("https://api.coingecko.com/api/v3/coins/bitcoin");
   if (!res.ok) {
     throw Error("Something went wrong");
   }
@@ -48,7 +48,7 @@ setInterval(getCurrentTime, 1000);
 navigator.geolocation.getCurrentPosition(async (position) => {
   try {
     const res = await fetch(
-      `https://apis.scrimba.com/openweathermap/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=imperial`
+      `https://apis.scrimba.com/openweathermap/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric`
     );
     if (!res.ok) {
       throw Error("Weather data not available");
