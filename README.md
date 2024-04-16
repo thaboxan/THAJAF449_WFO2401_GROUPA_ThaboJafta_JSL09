@@ -1,4 +1,10 @@
 # [JSL09] Submission: Personal Dashboard Chrome Extension
+Quick start:
+
+```
+$ npm install
+$ npm start
+````
 
 You will:
 1. Use the provided Starter Code Repository: https://github.com/CodeSpace-Academy/Module_09_StudentNo_Classcode_Group_Name-Surname_JSL09
